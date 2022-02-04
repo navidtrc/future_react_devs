@@ -1,0 +1,10 @@
+div {
+    background-color: rgb(191, 159, 221);
+    width: 200px;
+    border-top: 20px solid rgba(241, 0, 161, 0.226);
+    border-right: 20px solid purple;
+    border-bottom: 20px solid rgba(241, 0, 161, 0.226);
+    border-left: 20px solid purple;
+     padding: 50px;
+    margin: 50px;
+}
