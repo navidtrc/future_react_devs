@@ -1,0 +1,60 @@
+/* ul,li {
+    display: inline;
+} */
+
+body {
+    /* margin: 0; */
+
+}
+.myclass {
+  border: 10px red solid;
+  display: inline-block;
+  padding: 15px;
+  margin-right: 400px;
+  /* margin: 10px; */
+  /* margin-right: 100px;
+  margin-top: 150px; */
+  /* top     right    bottom    left */
+  /* margin: 30px    100px     30px     100px; */
+
+  /* top-bottom        right-left   */
+  /* margin: 30px              100px; */
+}
+
+.myclass2 {
+  border: 2px red groove;
+  display: inline-block;
+  text-align: center;
+  width: 79%;
+  /* display: inline-block; */
+  /* padding: 15px; */
+  /* margin: 100px; */
+}
+
+.myclass3 {
+    border: 2px rgb(55, 0, 255) solid;
+    display: inline-block;
+    text-align: center;
+    width: 19%;
+    /* display: inline-block; */
+    /* padding: 15px; */
+    /* margin: 100px; */
+  }
+  
+table {
+    width: 100% ;
+}
+table, th, td {
+    border: 1px white solid;
+    border-collapse: collapse;
+}
+th {
+    font-size: 30px;
+}
+td {
+    font-size: 26px;
+    text-align: center;
+}
+th, td {
+    background-color: rgb(121, 185, 182);
+}
