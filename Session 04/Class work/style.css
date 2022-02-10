@@ -1,0 +1,83 @@
+.h1 {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  border: 1px solid red;
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+#overflowTest {
+  background: #4caf50;
+  color: black;
+  padding: 15px;
+  width: 50%;
+  height: 150px;
+  overflow: auto;
+  border: 1px solid #ccc;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* div p {
+    color: blue;
+} */
+/* div > p {
+    color: red;
+} */
+
+/* div ~ p {
+    color: red;
+} */
+
+.btn {
+  background-color: #075fa7;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border: #075fa7;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+/* button.btn:hover {
+  background-color: #011d33;
+  width: 120px;
+  height: 60px;
+} */
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+p {
+    color: green;
+    /* display: none; */
+}
+
+/* div:hover p {
+    display: block;
+    width: 30%;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+} */
+
+button.btn:hover p {
+    /* background-color: #011d33; */
+    /* width: 120px;
+    height: 60px; */
+    color: red;
+  }
