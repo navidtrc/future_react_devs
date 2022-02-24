@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("../fonts/iransans/eot/IRANSansWeb.eot");
+  src: url("../fonts/iransans/woff/IRANSansWeb.woff") format("woff"),
+    url("../fonts/iransans/woff2/IRANSansWeb.woff2") format("woff2"),
+    url("../fonts/iransans/ttf/IRANSansWeb.ttf") format("truetype");
+}
+
+body {
+  direction: rtl;
+  font-family: "IRANSansWeb";
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  width: 65%;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.yellow-box {
+  position: relative;
+}
+.signupcourse-btn {
+  /* background-color: #16629a; */
+  background-color: #024577;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "IRANSansWeb";
+  padding: 8px 25px;
+  cursor: pointer;
+}
+.signupcourse-btn:hover {
+  background-color: #16629a;
+}
+.course-box {
+  width: 22%;
+  height: 260px;
+  float: right;
+  margin-left: 16px;
+  background-color: white;
+  position: relative;
+  padding: 10px 15px 0 0;
+}
+.course-box-img {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  width: 260px;
+  height: 120px;
+}
+
+.course-box a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  float: right;
+  margin-left: 15px;
+  border-left: 1px solid rgb(131, 131, 131);
+  padding-left: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+nav ul ul {
+  display: none;
+}
+
+/* nav > ul > li:hover > ul {
+  display: block;
+} */
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+/* nav ul li a:hover + ul { NOT WORKING
+  display: block; 
+}  */
